@@ -1,0 +1,35 @@
+# Example connections.toml file for Snowpark CLI
+# Place this file at ~/.snowflake/connections.toml
+
+# Default connection name (optional)
+default_connection_name = "default"
+
+# Default connection configuration
+[default]
+account = "your-account-identifier"
+user = "your-username"
+password = "your-password"
+database = "your-database"
+schema = "your-schema"
+warehouse = "your-warehouse"
+role = "your-role"
+
+# Additional connection example
+[production]
+account = "prod-account-identifier"
+user = "prod-username"
+password = "prod-password"
+database = "prod-database"
+schema = "prod-schema"
+warehouse = "prod-warehouse"
+role = "prod-role"
+
+# Development connection example
+[development]
+account = "dev-account-identifier"
+user = "dev-username"
+password = "dev-password"
+database = "dev-database"
+schema = "dev-schema"
+warehouse = "dev-warehouse"
+role = "dev-role"
